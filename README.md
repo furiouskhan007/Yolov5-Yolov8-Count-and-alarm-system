@@ -1,3 +1,10 @@
+# Note
+* To run custom yolov5 model do the below change
+* add the follow codes to the file yolov5\models\experimental.py
+import pathlib
+temp = pathlib.PosixPath
+pathlib.PosixPath = pathlib.WindowsPath
+
 # target-detector-yolov5
 
 YouTube Video:
